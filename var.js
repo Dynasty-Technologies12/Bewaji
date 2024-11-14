@@ -16,19 +16,19 @@
 // x = 10;
 // y = 15;
 
-var x = 10; 
-var y = 15;
-var res;
+// var x = 10; 
+// var y = 15;
+// var res;
 
-// name of the function is add
-function add(x, y) {
-    return x + y;
-}
+// // name of the function is add
+// function add(x, y) {
+//     return x + y;
+// }
 
-// Call the function and assign the result to res
-var res = add(x, y);
+// // Call the function and assign the result to res
+// var res = add(x, y);
 
-console.log(res); // This will output 25
+// console.log(res); // This will output 25
 
 
 

@@ -1,0 +1,34 @@
+/* dot(.) is the for class selector, while # is for id selector */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    justify-content: space-evenly;
+    padding: 10px
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxs {
+    height: 150px;
+    width: 150px;
+    background-color: #000;
+    border: 3px solid #c42323; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff
+}
