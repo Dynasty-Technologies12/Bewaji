@@ -1,0 +1,218 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Noto Sans', sans-serif;
+    line-height: 1.6;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+h1 {
+    color: rgb(187, 170, 116);
+    font-size: 3.8rem;
+}
+
+h2,
+h3 {
+    font-size: 2.5rem; /* Make the heading large and attention-grabbing */
+    color: #585f2e; /* Use a deep, rich color for the text */
+    text-align: center; /* Center the text, good for headings */
+}
+
+section {
+    padding: 7em 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 65em;
+    margin: 0   auto;
+}
+
+.split {
+    display: flex;
+}
+
+.spacing>*+* {
+    margin-top: var(--spacer, 2rem);
+}
+
+.btn {
+    display: inline-block;
+    text-decoration: none;
+    padding: .5em 1.23em;
+    background: rgb(24, 173, 49);
+    color: white;
+    font-weight: 700;
+    font-size: .9rem;
+    text-transform: uppercase;
+    border-radius: 20px;
+    transition: 
+        transform 250ms ease-in-out,
+        opacity 250ms linear;
+}
+
+.btn:hover,
+.btn:focus {
+    transform: scale(1.1);
+    opacity: .9;
+}
+
+
+.main-title {
+    font-size: 4rem;
+    font-size:  clamp(3rem, calc(5vw + 1rem), 4.5rem);
+    line-height: 1;
+    text-transform: uppercase;
+}
+
+.section-title {
+    text-align: center;
+    font-size: clamp(2.5rem, calc(5vw + 1rem), 4rem);
+    line-height: 1 ;
+
+}
+
+.hero {
+    text-align: center;
+    padding: 15em 0;
+    background-image:
+      url(./pngwing.com.png),
+      radial-gradient(#111313, #1d4212);
+    background-size: 100%;
+    color:  rgb(185, 172, 153);
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: on-repeat;
+}
+
+.featured__item {
+    display: block;
+    position: relative;
+    transform: scale(0.85);
+    transition: transform 250ms ease-in-out;
+    text-decoration: none;
+    color: #333;
+    text-align: center;
+}
+
+.featured__item .featured__details {
+    opacity: 0;
+    transition: opacity 250ms linear;
+}
+
+.featured__item .featured__price {
+    display: block;
+    font-weight: 700;
+    font-size: 2.5rem;
+    color: red;
+    
+}
+
+.featured__item:hover,
+.featured__item:focus {
+    transform: scale(1);
+}
+
+.featured__item:hover .featured__details,
+.featured__item:focus .featured__details {
+    opacity: 3;
+    text-shadow: 0 0 0.25em rgba(139, 90, 16, 0.5); 
+    word-spacing: 2%;
+}
+
+.featured__item::after {
+    content: '';
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    padding: 75% 75% 0 0;
+    border-radius: 50%;
+    background: #67756a;
+    background: rgba(159, 221, 177, 0.5); /* Use RGBA for transparency, 0.5 is 50% transparency */
+    z-index: -1;
+}
+
+.price {
+    font-weight: bold; 
+    font-size: 1.5rem; 
+    color: red; 
+    display: block; 
+    margin-bottom: 5px; 
+}
+
+.name {
+    font-size: 1.5rem;
+    color: #a83141; 
+}
+
+.product {
+    background: radial-gradient(var(--cir-inner, limegreen), var(--cir-outer, purple));
+    padding: 3em;
+    border-radius: 3em;
+    margin-bottom: 3em;
+    text-align: center;
+}
+
+.product__title {
+    font-size: 4rem;
+    line-height: 1.1;
+    color: #fff;
+    text-shadow: 0 0 0.2em rgba(255, 255, 255, 0.8); /* Adjust the color and transparency as needed */
+}
+
+
+.hero {
+    --cir-accent: #faa700;
+}
+
+.shoe-red {
+    --cir-inner: rgb(184, 24, 24);
+    --cir-outer: rgb(187, 144, 64);
+    --cir-accent: rgb(173, 24, 24);
+}
+.shoe-white {
+    --cir-inner: #6d5f44;
+    --cir-outer: #eac886;
+    --cir-accent: #2f4858;
+}
+.shoe-blue {
+    --cir-inner: #6dd5ed;
+    --cir-outer:    #2193b0;
+    --cir-accent: limegreen;
+}
+
+.footer-content {
+    text-align: center;
+    padding: 8em;
+    background-image:
+      url(./pngwing.com\ \(8\).png),
+      radial-gradient(#0e0f0f, #184908);
+    background-size: 100%;
+    color:  rgb(185, 172, 153);
+    background-blend-mode: multiply;
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: on-repeat;
+   margin-top: 100px;
+   border-radius: 30px;
+}
+
+
+.social-icons a {
+    font-size: 24px;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: transform 250ms, color 250ms;
+}
+
+
