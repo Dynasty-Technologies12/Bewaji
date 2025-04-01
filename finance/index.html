@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Finance app</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+</head>
+<body>
+    
+    <section id="menu">
+        <div class="menu-page">
+            <h2>finance</h2>
+            <li class="activ"><i class="fa-solid fa-house"></i>Overview</li>
+            <li><i class="fa-solid fa-repeat"></i>Transactions</li>
+            <li><i class="fa-solid fa-filter-circle-dollar"></i>Budgets</li>
+            <li><i class="fa-solid fa-sack-dollar"></i>Pots</li>
+            <li><i class="fa-solid fa-money-bills"></i>Reccurring Bills</li>
+            <div id="close-menu">
+                <i class="fa-solid fa-left-long"></i>
+                <h3>Minimize menu</h3>
+            </div>
+        </div>
+    </section>
+    <section id="overview">
+        <div id="start-menu">
+            <button><i class="fa-solid fa-bars"></i></button>
+            <h1>Overview</h1>
+        </div>
+        <div class="overview-container">
+            <div class="overview-bala active">
+                <span>Current Balance</span><h2>$4,836.00</h2>
+            </div>
+            <div class="overview-bal">
+                <span>Income</span><h2>$3,814.25</h2>
+            </div>  
+            <div class="overview-bal">
+                <span>Expenses</span><h2>$1,700.50</h2>
+            </div>
+        </div>
+    </section>
+
+    <section id="pots">
+        <div class="pot-details">
+            <div class="pot-header">
+                <h1>Pots</h1>
+            </div>
+            <div class="all-details">
+                <span>See Details <i class="fa-solid fa-caret-right"></i></span>
+            </div>
+            <div class="total-saved">
+                <div class="icon">
+                    <i class="fa-solid fa-sack-dollar"></i>
+                </div>
+                <div class="total">
+                    <span>Total Saved</span>
+                    <h3>$850</h3>
+                </div>
+            </div>
+            <div class="other-details">
+                <div class="left-details">
+                    <div class="sav">
+                        <strong></strong>
+                        <div class="text-container">
+                            <span>Savings</span>
+                            <h3>$159</h3>
+                        </div>
+                    </div>
+                    
+                    <div class="tick">
+                        <strong></strong>
+                        <div class="text-container">
+                            <span>Concert Ticket</span>
+                            <h3>$110</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-details">
+                    <div class="gift">
+                        <strong></strong>
+                        <div class="text-container">
+                            <span>Gift</span>
+                            <h3>$40</h3>
+                        </div>
+                    </div>
+                    <div class="lap">
+                        <strong></strong>
+                        <div class="text-container">
+                            <span>New Laptop</span>
+                            <h3>$10</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+<section id="budget">
+    <div class="budget-chart">
+        <div class="chart-header">
+            <h1>Budgets</h1>
+        </div>
+        <div class="all-detail">
+            <span>See Details <i class="fa-solid fa-caret-right"></i></span>
+        </div>
+    </div>
+    <div class="budgets">
+        <canvas id="budget-details"></canvas>
+    </div>
+</section>
+
+<section id="transactions">
+    <div class="trans-details">
+            <div class="trans-headers">
+                <h1>Transactions</h1>
+            </div>
+            <div class="all-detailed">
+                <span>View All <i class="fa-solid fa-caret-right"></i></span>
+            </div>
+            <div class="personal-info">
+                <div class="trans-detail">
+                    <img src="./emma.png" alt="">
+                    <h4>Emma Richardson</h4>
+                </div>
+                <div class="detail-view">
+                    <h5>+$75.50</h5>
+                    <span>19 Aug 2024</span>
+                </div>
+            </div>
+            <div class="personal-info2">
+                <div class="trans-detail">
+                    <img src="./bites.png" alt="">
+                    <h4>Savory Bites Bistro</h4>
+                </div>
+                <div class="detail-view2">
+                    <h5>-$55.50</h5>
+                    <span>19 Aug 2024</span>
+                </div>
+            </div>
+            <div class="personal-info3">
+                <div class="trans-detail">
+                    <img src="./carter.png" alt="">
+                    <h4>Daniel Carter</h4>
+                </div>
+                <div class="detail-view3">
+                    <h5>-$42.30</h5>
+                    <span>19 Aug 2024</span>
+                </div>
+            </div>
+            <div class="personal-info4">
+                <div class="trans-detail">
+                    <img src="./park.png" alt="">
+                    <h4>Sun Park</h4>
+                </div>
+                <div class="detail-view4">
+                    <h5>+$120.00</h5>
+                    <span>19 Aug 2024</span>
+                </div>
+            </div>
+            <div class="personal-info5">
+                <div class="trans-detail">
+                    <img src="./hub.png" alt="">
+                    <h4>Urban Services Hub</h4>
+
+                </div>
+                <div class="detail-view5">
+                    <h5>-$65.00</h5>
+                    <span>19 Aug 2024</span>
+                </div>
+            </div>
+    </div>
+</section>
+
+<section id="bills">
+    <div class="recurring-bills">
+        <div class="bill-header">
+            <h1>Recurring Bills</h1>
+        </div>
+        <div class="all-detaill">
+            <span>See Details <i class="fa-solid fa-caret-right"></i></span>
+        </div>
+
+        <div class="detail-list">
+            <span>Paid Bills</span>
+            <h5>$190.00</h5>
+        </div>
+        <div class="detail-list2">
+            <span>Total Upcoming</span>
+            <h5>$194.98</h5>
+        </div>
+        <div class="detail-list3">
+            <span>Due Soon</span>
+            <h5>$59.98</h5>
+        </div>
+    </div>
+</section>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
+

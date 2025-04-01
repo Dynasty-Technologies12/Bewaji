@@ -1,0 +1,1690 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f8f5f0;
+}
+
+
+.menu-page {
+    width: 250px;
+    height: 100vh;
+    background-color: #050e18;
+    color: white;
+    position: fixed;
+    left: 0;
+    top: 0;
+    transition: all 0.3s ease;
+    overflow: hidden;        
+}
+
+.menu-page h2 {
+    margin: 20px;
+    font-weight: 600;
+    color: aqua;
+}
+
+.menu-page li {
+    list-style: none;
+    color: grey;
+
+}
+.menu-page li i{
+    color: white;
+    padding: 20px;
+}
+.menu-page .activ {
+    border-radius: 10px;
+    background-color: white;
+}
+
+.menu-page li.activ i {
+    color: #28a745; 
+}
+
+.menu-page li:hover {
+    color: aqua;
+}
+
+.menu-page li:hover i {
+    color: #28a745;
+}
+
+#close-menu {
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 35rem;
+    margin-left: 25px;
+}
+
+#close-menu i {
+    font-size: 18px;
+    color: #fff;
+}
+
+#close-menu h3 {
+    font-size: 15px;
+    color: gray;
+}
+
+
+/* menu section ends. */
+
+.overview-container {
+    display: flex;
+    align-items: center;
+    margin-left: 420px;
+    gap: 70px;
+    margin-top: 50px;
+}
+
+#start-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-right: 60rem;
+}
+
+#start-menu h1{
+    color:  black;
+    font-weight: 700;
+    padding: 10px;
+    font-size: 40px;
+}
+
+#start-menu button {
+    color:  black;
+    font-weight: 700;
+    padding: 5px;
+    font-size: 20px;
+}
+
+.overview-bal{
+    width: 400px;
+    height: 100px;
+    box-shadow: 0px 4px 10px rgb(238, 229, 218);
+    border-radius: 10px;
+    background-color: white;
+    
+}
+
+.overview-bal span {
+    font-size: 18px;
+    background-color: transparent;
+    color:  gray;
+    font-weight: 500;
+    display: inline-block;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.overview-bal h2 {
+    margin-top: 5px;
+    font-size: 35px;
+    background-color: transparent;
+    color: rgb(14, 13, 13);
+    font-weight: 800;
+    margin-left: 30px;    
+}
+
+.overview-bala{
+    width: 400px;
+    height: 100px;
+    box-shadow: 0px 4px 10px rgb(238, 229, 218);
+    border-radius: 10px;
+    color: white;    
+}
+
+
+.overview-bala span {
+    font-size: 18px;
+    background-color: transparent;
+    font-weight: 500;
+    display: inline-block;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.overview-bala h2 {
+    font-size: 40px;
+    background-color: transparent;
+    font-weight: 800;
+    margin-left: 30px;    
+}
+
+.active {
+    background-color: black;
+}
+
+/* overview section ends */
+.pot-details {
+    width: 45rem;
+    height: 25vh;
+    box-shadow: 0px 4px 10px rgb(238, 229, 218);
+    border-radius: 20px;
+    background-color: white;
+    margin-left: 420px;
+    margin-top: 60px;
+}
+
+.pot-details h1 {
+    font-size: 25px;
+    margin-left: 30px;
+}
+
+.all-details {
+    margin-top: -20px;
+    margin-right: 20px;
+}
+
+.all-details span {
+    display: block;
+    align-items: center;
+    text-align: right;
+}
+.all-details i {
+    color: #656464;
+    margin-left: 15px;
+}
+
+
+.total-saved {
+    width: 16rem;
+    height: 16vh;
+    box-shadow: 0px 4px 10px rgb(238, 229, 218);
+    margin: 35px;
+    display: flex;
+    align-items: center;
+    background-color: #f8f5f0;
+    margin-top: 20px;
+}
+
+.total span {
+    margin-left: 40px;
+    color: gray;
+    font-weight: 600;
+}
+
+.total h3 {
+    font-size: 45px;
+    font-weight: 800;
+    color:  black;
+    margin-left: 35px;
+    margin-top: 20px;
+}
+
+.icon {
+    color: #287c76;
+    font-size: 40px;
+    margin-left: 20px;
+}
+.other-details {
+    width: 50%;
+    height: 12vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(2, auto);
+    padding: 10px;
+    gap: 5px;
+    border-radius: 10px;
+    margin-left: 360px;
+    margin-top: -180px;
+}
+
+.sav {
+    display: flex;
+    align-items: center; 
+    gap: 7px; 
+    margin-top: -35px;
+}
+
+.sav strong {
+    display: inline-block;
+    width: 6px;
+    height: 50px;
+    background-color: #287c76;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+    margin: 5px;
+}
+
+.sav span {
+    font-weight: bold;
+    color: gray;
+    margin-top: 18px;
+}
+
+.sav h3 {
+    margin: 0;
+    color: #080808;
+    margin-top: 10px;
+    font-size: 22px;
+}
+
+.tick {
+    display: flex;
+    align-items: center; 
+    gap: 7px; 
+    margin-top: 15px;
+}
+
+.tick strong {
+    display: inline-block;
+    width: 6px;
+    height: 50px;
+    background-color: #656464;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+
+.text-container {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+    margin: 5px;
+}
+
+.tick span {
+    font-weight: bold;
+    color: gray;
+    margin-top: 18px;
+}
+
+.tick h3 {
+    margin: 0;
+    color: #080808;
+    margin-top: 10px;
+    font-size: 22px;
+}
+
+
+.gift {
+    display: flex;
+    align-items: center; 
+    gap: 7px; 
+    margin-top: -35px;
+}
+
+.gift strong {
+    display: inline-block;
+    width: 6px;
+    height: 50px;
+    background-color:  #8bced8;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+    margin: 5px;
+}
+
+.gift span {
+    font-weight: bold;
+    color: gray;
+    margin-top: 18px;
+}
+
+.gift h3 {
+    margin: 0;
+    color: #080808;
+    margin-top: 10px;
+    font-size: 22px;
+}
+
+.lap {
+    display: flex;
+    align-items: center; 
+    gap: 7px; 
+    margin-top: 15px;
+}
+
+.lap strong {
+    display: inline-block;
+    width: 6px;
+    height: 50px;
+    background-color: #f1cdab;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+    margin: 5px;
+}
+
+.lap span {
+    font-weight: bold;
+    color: gray;
+    margin-top: 18px;
+}
+
+.lap h3 {
+    margin: 0;
+    color: #080808;
+    margin-top: 10px;
+    font-size: 22px;
+}
+
+/* pots section  ends */
+
+.budget-chart {
+    position: relative;  
+    width: 35rem;
+    height: 50vh;
+    box-shadow: 0px 4px 10px rgb(238, 229, 218);
+    border-radius: 20px;
+    background-color: white;
+    margin-left: 75rem;
+    margin-top: -240px;
+    overflow: visible;  
+}
+
+.budget-chart h1 {
+    font-size: 25px;
+    margin-right: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    vertical-align: top;
+}
+
+.all-detail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 22rem;
+    margin-top: -40px;
+    vertical-align: top;
+}
+
+.all-detail span {
+    align-items: center;
+    text-align: right;
+}
+.all-detail i {
+    color: #656464;
+    margin-left: 15px;
+}
+
+.budgets {
+    position: absolute;
+    display: flex; 
+    justify-content: center;  
+    align-items: center;  
+    width: 40%;  
+    height: auto; 
+    z-index: 10;
+    top: 38%;
+    left: 51%;
+}
+
+
+canvas {
+    max-width: 100% !important;
+    max-height: 110% !important;
+}
+
+
+/* budgets section ends */
+
+
+.trans-details {
+    width: 45rem;
+    height: 62vh;
+    box-shadow: 0px 4px 10px rgb(238, 229, 218);
+    border-radius: 20px;
+    background-color: white;
+    margin-left: 420px;
+    margin-top: -12rem;
+}
+
+.trans-details h1{
+    font-size: 25px;
+    margin-left: 30px;
+    display: flex;
+    padding: 30px;
+}
+
+.all-detailed {
+    margin-top: -55px;
+    margin-right: 20px;
+}
+
+.all-detailed span {
+    display: block;
+    align-items: center;
+    text-align: right;
+}
+.all-detailed i {
+    color: #656464;
+    margin-left: 15px;
+}
+
+.personal-info {
+    width: 100%;
+    height: 10vh;
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+    box-shadow: 0 0px 4px rgb(238, 229, 218);
+    border-radius: 20px;
+}
+.trans-detail {
+    display: flex;
+}
+
+.trans-detail img {
+    width: 50px; 
+    height: 50px; 
+    border-radius: 50%;
+    object-fit: cover; 
+    padding: 20px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.trans-detail h4 {
+    font-size: 20px;
+    margin-left: 40px;
+    margin-top: 50px;
+    line-height: 1;
+    white-space: nowrap;
+}
+
+.detail-view {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-top: -20px; 
+    gap: 15px;
+    margin-left: 17rem;
+}
+
+.detail-view h5 {
+    color: #2596be;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.detail-view span {
+    font-weight: bold;
+    color: #7a7a85;
+    margin-left: 5px;
+}
+
+.personal-info2 {
+    width: 100%;
+    height: 10vh;
+    margin-top: 7px;
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+    box-shadow: 0 0px 4px rgb(238, 229, 218);
+    border-radius: 20px;
+}
+
+.detail-view2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-top: -20px; 
+    gap: 15px;
+    margin-left: 17rem;
+}
+
+.detail-view2 h5 {
+    color: #212024;;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.detail-view2 span {
+    font-weight: bold;
+    color: #7a7a85;
+    margin-left: 5px;
+}
+.personal-info3 {
+    width: 100%;
+    height: 10vh;
+    margin-top: 7px;
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+    box-shadow: 0 0px 4px rgb(238, 229, 218);
+    border-radius: 20px;
+}
+.detail-view3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-top: -20px; 
+    gap: 15px;
+    margin-left: 19.5rem;
+}
+
+.detail-view3 h5 {
+    color: #212024;;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.detail-view3 span {
+    font-weight: bold;
+    color: #7a7a85;
+    margin-left: 5px;
+}
+.personal-info4 {
+    width: 100%;
+    height: 10vh;
+    margin-top: 7px;
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+    box-shadow: 0 0px 4px rgb(238, 229, 218);
+    border-radius: 20px;
+}
+
+.detail-view4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-top: -20px; 
+    gap: 15px;
+    margin-left: 22rem;
+}
+
+.detail-view4 h5 {
+    color: #2596be;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.detail-view4 span {
+    font-weight: bold;
+    color: #7a7a85;
+    margin-left: 5px;
+}
+
+.personal-info5 {
+    width: 100%;
+    height: 10vh;
+    margin-top: 7px;
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+    box-shadow: 0 0px 4px rgb(238, 229, 218);
+    border-radius: 20px;
+}
+
+.detail-view5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-top: -20px; 
+    gap: 15px;
+    margin-left: 16rem;
+}
+
+.detail-view5 h5 {
+    color:#212024;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+}
+
+.detail-view5 span {
+    font-weight: bold;
+    color: #7a7a85;
+    margin-left: 5px;
+}
+
+
+
+/* Transaction section ends */
+
+.recurring-bills  {
+    width: 35rem;
+    height: 36vh;
+    box-shadow: 0px 4px 10px rgb(238, 229, 218);
+    border-radius: 20px;
+    background-color: white;
+    margin-left: 75rem;
+    margin-top: -22rem;
+}
+
+
+.recurring-bills h1{
+    font-size: 25px;
+    margin-left: 30px;
+    display: flex;
+    padding: 20px;
+}
+
+.all-detaill {
+    margin-top: -48px;
+    margin-right: 24px;
+}
+
+.all-detaill span {
+    display: block;
+    align-items: center;
+    text-align: right;
+}
+.all-detaill i {
+    color: #656464;
+    margin-left: 15px;
+}
+.detail-list {
+    position: relative;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 5px 22px;
+    width: 80%; 
+    height: 50px; 
+    border-radius: 15px;
+    background-color: #f8f5f0;
+    margin-top: 1.7rem;
+    margin-left: 50px;
+}
+
+.detail-list span {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: gray;
+    margin-left: -2px;
+}
+
+.detail-list::before {
+    content: "";
+    position: absolute; 
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%); 
+    
+    width: 8px;
+    height: 5vh; 
+    background: linear-gradient(to bottom, #83c8d8, #4a90e2);
+    border-radius: 10px;
+}
+
+.detail-list h5 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #212024;
+}
+
+.detail-list2 {
+    position: relative;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 5px 22px;
+    width: 80%; 
+    height: 50px; 
+    border-radius: 15px;
+    background-color: #f8f5f0;
+    margin-top: 1.6rem;
+    margin-left: 50px;
+}
+
+.detail-list2 span {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: gray;
+    margin-left: -2px;
+}
+
+.detail-list2::before {
+    content: "";
+    position: absolute; 
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    
+    width: 8px;
+    height: 5vh;
+    background: linear-gradient(to bottom, #f4d9c1, #f3ccac);
+    border-radius: 10px;
+}
+
+.detail-list2 h5 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #212024;
+}
+
+
+.detail-list3 {
+    position: relative;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 5px 22px;
+    width: 80%; 
+    height: 50px; 
+    border-radius: 15px;
+    background-color: #f8f5f0;
+    margin-top: 1.7rem;
+    margin-left: 50px;
+}
+
+.detail-list3 span {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+    color: gray;
+    margin-left: -2px;
+}
+
+.detail-list3::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%); 
+    
+    width: 8px;
+    height: 4vh; 
+    background: linear-gradient(to bottom, #656464, #625f70);
+    border-radius: 10px;
+}
+
+.detail-list3 h5 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #212024;
+}
+/* bills section ends */
+
+.hidden-menu {
+    width: 0;  
+    overflow: hidden;
+    transition: width 0.3s ease-in-out;
+}
+
+
+
+
+@media screen and (min-width: 375px) and (max-width: 700px) {
+    * {
+        max-width: 100%;        
+    }
+    /* #menu {
+        position: relative;
+    } */
+    .menu-page {
+        /* top: 150rem;
+        position: absolute; */
+        display: none;
+    }
+
+    .overview-container { 
+        display: block; 
+        width: 90%; 
+        max-width: 380px; 
+        margin-top: 30px;
+        margin-left: 22px;
+        
+    }
+    .overview-bala {
+        margin-bottom: 30px;
+    }
+    .overview-bal {
+        margin-bottom: 30px;
+    }
+
+    .pot-details {
+        width: 90%;
+        margin-left: 23px;
+        margin-top: 0;
+        height: 43vh;
+    }
+    .pot-header {
+        display: inline-block;
+        font-size: 15px;
+        margin-left: -10px;
+        margin-top: 15px;
+    }
+    .total-saved {
+        width: 90%; 
+        margin-left: 20px;
+        margin-top: 20px;
+    }
+    .icon{
+        font-size: 40px;
+        margin-left: 20px;
+    }
+    .total span{
+        font-size: 18px;
+        margin-left: 30px;
+    }
+    .total h3{
+        font-size: 40px;
+        margin-left: 30px;
+    }
+    .all-details {
+        display: flex;
+        margin-left: 272px;
+        margin-top: -25px;
+        width: 100px;
+        color: #656464;
+    }
+    .all-details span {
+        font-size: 15px;
+        /* margin-left: 10rem; */
+    }
+    .other-details {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .left-details {
+        margin-left: 2px;
+        margin-top: 20px;
+    }
+    .sav strong {
+        height: 60px;
+        margin-top: -2px;
+    }
+    .text-container span {
+        font-size: 18px;
+        margin: 0;
+    }
+    
+    .right-details {
+        /* margin-top: -150px; */
+        margin-left: 5px;
+        gap: 5px;
+    }
+    .tick strong {
+        height: 60px;
+        margin-top: 8px;
+    }
+    .gift strong {
+        height: 60px;
+        margin-top: 15px;
+    }
+    .lap strong{
+        height: 60px;
+        margin-top: 10px;
+    }
+    
+    .text-container h3 {
+        font-size: 13px;
+        margin-top: 5px;
+    }
+
+
+    .budget-chart {
+        width: 90%;
+        margin-left: 23px;
+        margin-top: 20px;
+        height: 45vh;
+    }
+    .chart-header {
+        font-size: 12px;
+        margin-left: 45px;
+    }
+    .all-detail {
+        display: flex;
+        margin-left: 255px;
+        margin-top: -35px;
+        width: 100px;
+        color: #656464;
+    }
+
+    .budgets {
+        margin-top: 38rem;
+        margin-left: -6rem;
+        gap: 14.5rem;
+    }
+    canvas {
+        max-width: 100% !important;
+        max-height: 100% !important;
+    }
+
+    .trans-details {
+        width: 90%;
+        height: 62vh;
+        margin: 20px;
+        margin-top: 40px;
+    }
+    .trans-headers {
+        font-size: 10px;
+        margin-left: -35px;
+        margin-top: 1px;
+    }
+    .personal-info {
+        width: 100%;
+        line-height: 2px;
+        display: flex;
+    }
+    .trans-detail {
+        display: flex;
+    }
+
+    .trans-detail h4 {
+        font-size: 16px;
+        margin-left: -1px;
+        margin-top: 26px;
+        line-height: 1;
+        white-space: nowrap;
+    }
+
+    .trans-detail img {
+        margin-left: 5px;
+        width: 50px;
+        height: 50px;
+        margin-top: -5px;
+    }
+    .detail-view {
+        width: 30%;
+        margin-left: 70px;
+        font-size: 5px;
+        margin-top: -6px;
+        gap: 20px;
+    }
+    .detail-view h5 {
+        font-size: 16px;
+    }
+    .detail-view span {
+        font-size: 11px;
+    }
+
+    .personal-info2 {
+        width: 100%;
+        line-height: 2px;
+        display: flex;
+    }
+    .trans-detail {
+        display: flex;
+    }
+
+    .trans-detail h4 {
+        font-size: 16px;
+        margin-left: -1px;
+        margin-top: 26px;
+        line-height: 1;
+        white-space: nowrap;
+    }
+
+    .trans-detail img {
+        margin-left: 5px;
+        width: 50px;
+        height: 50px;
+        margin-top: -5px;
+    }
+    .detail-view2 {
+        width: 30%;
+        margin-left: 70px;
+        font-size: 10px;
+        margin-top: -10px;
+        gap: 20px;
+    }
+    .detail-view2 h5 {
+        font-size: 16px;
+    }
+    .detail-view2 span {
+        font-size: 11px;
+    }
+
+
+    .personal-info3 {
+        width: 100%;
+        line-height: 2px;
+        display: flex;
+    }
+    .trans-detail {
+        display: flex;
+    }
+
+    .trans-detail h4 {
+        font-size: 16px;
+        margin-left: -1px;
+        margin-top: 26px;
+        line-height: 1;
+        white-space: nowrap;
+    }
+
+    .trans-detail img {
+        margin-left: 5px;
+        width: 50px;
+        height: 50px;
+        margin-top: -5px;
+    }
+    .detail-view3 {
+        width: 30%;
+        margin-left: 95px;
+        font-size: 10px;
+        margin-top: -10px;
+        gap: 20px;
+    }
+    .detail-view3 h5 {
+        font-size: 16px;
+    }
+    .detail-view3 span {
+        font-size: 11px;
+    }
+
+
+    .personal-info4 {
+        width: 100%;
+        line-height: 2px;
+        display: flex;
+    }
+
+    .trans-detail h4 {
+        font-size: 16px;
+        margin-left: -1px;
+        margin-top: 26px;
+        line-height: 1;
+        white-space: nowrap;
+    }
+
+    
+    .detail-view4 {
+        width: 30%;
+        margin-left: 120px;
+        font-size: 10px;
+        margin-top: -10px;
+        gap: 20px;
+    }
+    .detail-view4 h5 {
+        font-size: 16px;
+    }
+    .detail-view4 span {
+        font-size: 11px;
+    }
+
+
+    .personal-info5 {
+        width: 100%;
+        line-height: 2px;
+        display: flex;
+    }
+
+    .trans-detail h4 {
+        font-size: 16px;
+        margin-left: -1px;
+        margin-top: 26px;
+        line-height: 1;
+        white-space: nowrap;
+    }
+
+    .detail-view5 {
+        width: 30%;
+        margin-left: 60px;
+        font-size: 10px;
+        margin-top: -10px;
+        gap: 20px;
+    }
+    .detail-view5 h5 {
+        font-size: 16px;
+    }
+    .detail-view5 span {
+        font-size: 11px;
+    }
+
+    .recurring-bills {
+        width: 90%;
+        height: 34vh;
+        margin: 20px;
+        margin-top: 0;
+    }    
+    .all-detaill {
+        display: flex;
+        margin-left: 280px;
+        width: 100px;
+        color: #656464;
+    }
+    .all-detaill span {
+        font-size: 13px;
+    }
+    .bill-header {
+        margin-left: -30px;
+        margin-top: 1px;
+    }
+    .bill-header h1 {
+        font-size: 20px;
+        margin-left: 25px;
+    }
+    .detail-list {
+        width: 80%;
+        margin-left: 12px;
+    }
+    .detail-list2 {
+        width: 80%;
+        margin-left: 12px;
+    }
+    .detail-list3 {
+        width: 80%;
+        margin-left: 12px;
+    }
+
+
+    .menu-page {
+        width: 98%;
+        height: 10vh;
+        margin-left: 5px;
+    }
+    #close-menu {
+        display: none;
+    }
+    .menu-page h2 {
+        display: none;
+    }
+    .menu-page li {
+        display: none;
+    }
+    .menu-page i {
+        color: red
+    }
+}
+
+
+
+@media screen and (min-width: 762px) and (max-width: 992px){
+    * {
+        max-width: 100%;
+    }
+    .menu-page {
+        height: 100%;
+    }
+
+    #start-menu {
+        margin-left: 60px;
+    }
+    .overview-container { 
+        display: flex; 
+        width: 90%; 
+        margin-top: 30px;
+        margin-left: 36px;        
+    }
+    .overview-bala h2 {
+        font-size: 34px;
+        margin-left: 25px;
+    }
+    .overview-bal h2 {
+        font-size: 34px;
+        margin-left: 25px;
+    }
+    .overview-bal span {
+        margin-left: 15px;
+        font-size: 18px;
+    }
+    .overview-bala span {
+        margin-left: 15px;
+        font-size: 18px;
+    }
+    .pot-details {
+        width: 90%;
+        height: 35vh;
+        margin-left: 38px;
+        margin-top: 50px;
+    }
+    .pot-header {
+        display: flex;
+        font-size: 20px;
+        margin-left: 5px;
+        margin-top: 4px;
+    }
+    .total-saved {
+        width: 14rem;
+        height: 19vh;
+        margin: 35px;
+        margin-top: 50px;
+    }
+    .other-details {
+        margin-left: 26rem;
+        margin-top: -200px;
+    }
+    .sav {
+        margin-top: -18px;
+        margin-left: -7rem;
+        font-size: 18px;
+    }
+    .sav strong {
+        height: 60px;
+    }
+    .tick strong {
+        height: 60px;
+    }
+    .gift strong {
+        height: 70px;
+    }
+    .lap strong {
+        height: 70px;
+    }
+    .tick {
+        display: flex;
+        align-items: center; 
+        gap: 3px; 
+        margin-top: 10px;
+        margin-left: -7rem;
+        font-size: 18px;
+    }
+    .lap {
+        font-size: 18px;
+        margin-left: -7rem;
+        margin-top: 10px;
+    }
+    .gift {
+        font-size: 18px;
+        margin-left: -7rem;
+        margin-top: -15px;
+    }
+
+    .budget-chart {
+        width: 90%;
+        height: 60vh;
+        margin-left: 2.3rem;
+        margin-top: 30px;
+    }
+    .budget-chart h1 {
+        font-size: 20px;
+        margin-left: -12rem;
+    }
+    .all-detail{
+        margin-left: 30rem;
+    }
+    .budgets {
+        width: 40%;
+        gap: 20rem;
+        margin-top: 22rem;
+        margin-left: -10rem;
+    }
+
+    .trans-details {
+        width: 90%;
+        height: 70vh;
+        margin-left: 2.3rem;
+        margin-top: 3rem;
+    }
+    .personal-info {
+        width: 95%;
+        height: 10vh;
+        margin-left: 25px;
+        margin-top: 20px;
+    }
+    .trans-headers {
+        margin-left: -20px;
+    }
+    .trans-detail img {
+        margin-left: -10px;
+        margin-top: 10px;
+    }
+    .trans-detail {
+        display: flex;
+    }
+    .trans-detail h4 {
+        font-size: 20px;
+        margin-left: 20px;
+        margin-top: 2.5rem;
+        line-height: 1;
+        white-space: nowrap;
+    }
+    .detail-view {
+        margin-left: 18rem;
+        margin-top: 10px;
+    }
+    .detail-view span {
+        font-size: 12px;
+    }
+    .detail-view2 {
+        margin-left: 18rem;
+        font-size: 14px;
+        margin-top: -10px;
+    }
+    .personal-info2 {
+        width: 95%;
+        height: 10vh;
+        margin-left: 25px;
+        margin-top: 20px;
+    }
+    .detail-view2 span {
+        font-size: 12px;
+    }
+    
+    .detail-view3 {
+        margin-left: 21rem;
+        font-size: 14px;
+        margin-top: -10px;
+    }
+    .personal-info3 {
+        width: 95%;
+        height: 10vh;
+        margin-left: 25px;
+        margin-top: 20px;
+    }
+    .detail-view3 span {
+        font-size: 12px;
+    }
+    
+    .detail-view4 {
+        margin-left: 23rem;
+        font-size: 14px;
+        margin-top: -10px;
+    }
+    .personal-info4 {
+        width: 95%;
+        height: 10vh;
+        margin-left: 25px;
+        margin-top: 20px;
+    }
+    .detail-view4 span {
+        font-size: 12px;
+    }
+    
+    .detail-view5 {
+        margin-left: 17.5rem;
+        font-size: 14px;
+        margin-top: -10px;
+    }
+    .personal-info5 {
+        width: 95%;
+        height: 10vh;
+        margin-left: 25px;
+        margin-top: 20px;
+    }
+    .detail-view5 span {
+        font-size: 12px;
+    }
+
+    .recurring-bills {
+        width: 90%;
+        height: 49vh;
+        margin-left: 2rem;
+        margin-top: 2rem;
+    }
+    .recurring-bills h1 {
+        font-size: 20px;
+        margin-left: 20px;
+        margin-top: 1px;
+    }
+
+    .detail-list {
+        width: 85%;
+        margin-left: 38px;
+        margin-top: 50px;
+    }
+    .detail-list2 {
+        width: 85%;
+        margin-left: 38px;
+        margin-top: 40px;
+    }
+
+    .detail-list3 {
+        width: 85%;
+        margin-left: 38px;
+        margin-top: 40px;
+    }
+    
+    #close-menu {
+        margin-top: 25rem;
+    }
+}
+
+@media screen and (min-width: 995px) and (max-width: 1366px) {
+    * {
+        max-width: 100%;
+    }
+    .menu-page {
+        height: 100%;
+    }
+
+    #start-menu {
+        margin-left: 80px;
+    }
+    .overview-container { 
+        width: 87%; 
+        margin-top: 30px;
+        margin-left: 56px;        
+    }
+    .pot-details {
+        width: 44%;
+        height: 30vh;
+        margin-left: 55px;
+        margin-top: 60px;
+    }
+    .pot-details h1 {
+        font-size: 20px;
+        margin-left: 30px;
+    }
+    .total-saved {
+        width: 11rem;
+        height: 15vh;
+        margin: 35px;
+        margin-top: 50px;
+    }
+    .total h3 {
+        font-size: 30px;
+        margin-left: 20px;
+    }
+    .total span {
+        font-size: 15px;
+        margin-left: 20px;
+    }
+    .other-details {
+        margin-left: 15rem;
+    }
+    .sav {
+        margin-top: -15px;
+        margin-left: -15px;
+        font-size: 13px;
+    }
+    .tick {
+        display: flex;
+        align-items: center; 
+        gap: 3px; 
+        margin-top: 5px;
+        margin-left: -15px;
+        font-size: 13px;
+    }
+    .lap strong{
+        margin-top: -px;
+        height: 3.5rem;
+    }
+    .lap {
+        font-size: 13px;
+        margin-left: -20px;
+    }
+    .gift {
+        font-size: 13px;
+        margin-left: -20px;
+        margin-top: -25px;
+    }
+
+    .budget-chart {
+        width: 42%;
+        height: 50vh;
+        margin-left: 31.5rem;
+        margin-top: -250px;
+    }
+    .budget-chart h1 {
+        font-size: 20px;
+        margin-left: 20px;
+    }
+    .all-detail{
+        margin-left: 260px;
+    }
+    .budgets {
+        width: 20%;
+        gap: 14.5rem;
+        margin-top: 1px;
+        margin-left: 6.5rem;
+    }
+
+    .trans-details {
+        width: 44%;
+        height: 70vh;
+        margin-left: 3.5rem;
+        margin-top: -8rem;
+    }
+    .personal-info {
+        width: 90%;
+        height: 10vh;
+        margin-left: 25px;
+        margin-top: 20px;
+    }
+    .trans-headers {
+        margin-left: -20px;
+    }
+    .trans-detail img {
+        margin-left: -10px;
+        margin-top: 10px;
+    }
+    .trans-detail {
+        display: flex;
+    }
+    .trans-detail h4 {
+        font-size: 16px;
+        margin-left: -1px;
+        margin-top: 2.5rem;
+        line-height: 1;
+        white-space: nowrap;
+    }
+    .detail-view {
+        margin-left: 95px;
+        margin-top: 10px;
+    }
+    .detail-view span {
+        font-size: 12px;
+    }
+    .detail-view h5 {
+        font-size: 16px;
+    }
+    .detail-view2 {
+        margin-left: 95px;
+        font-size: 14px;
+        margin-top: -10px;
+    }
+    .personal-info2 {
+        width: 90%;
+        height: 10vh;
+        margin-left: 25px;
+        margin-top: 20px;
+    }
+    .detail-view2 span {
+        font-size: 12px;
+    }
+    .detail-view2 h5 {
+        font-size: 16px;
+    }
+    .detail-view3 {
+        margin-left: 130px;
+        font-size: 14px;
+        margin-top: -10px;
+    }
+    .personal-info3 {
+        width: 90%;
+        height: 10vh;
+        margin-left: 25px;
+        margin-top: 20px;
+    }
+    .detail-view3 span {
+        font-size: 12px;
+    }
+    .detail-view3 h5 {
+        font-size: 16px;
+    }
+    
+    .detail-view4 {
+        margin-left: 160px;
+        font-size: 14px;
+        margin-top: -10px;
+    }
+    .personal-info4 {
+        width: 90%;
+        height: 10vh;
+        margin-left: 25px;
+        margin-top: 20px;
+    }
+    .detail-view4 span {
+        font-size: 12px;
+    }
+    .detail-view4 h5 {
+        font-size: 16px;
+    }
+    
+    .detail-view5 {
+        margin-left: 90px;
+        font-size: 14px;
+        margin-top: -10px;
+    }
+    .personal-info5 {
+        width: 90%;
+        height: 10vh;
+        margin-left: 25px;
+        margin-top: 20px;
+    }
+    .detail-view5 span {
+        font-size: 12px;
+    }
+    .detail-view5 h5 {
+        font-size: 16px;
+    }
+    .recurring-bills {
+        width: 42%;
+        height: 45vh;
+        margin-left: 31.6rem;
+        margin-top: -26em;
+    }
+    .recurring-bills h1 {
+        font-size: 20px;
+        margin-left: 1px;
+        margin-top: 1px;
+    }
+
+    .detail-list {
+        width: 80%;
+        margin-left: 19px;
+        margin-top: 50px;
+    }
+    .detail-list2 {
+        width: 80%;
+        margin-left: 19px;
+        margin-top: 40px;
+    }
+
+    .detail-list3 {
+        width: 80%;
+        margin-left: 19px;
+        margin-top: 40px;
+    }
+    
+    #close-menu {
+        margin-top: 25rem;
+    }
+}
